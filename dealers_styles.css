@@ -48,29 +48,13 @@ body{
 
  .first_post div{ 
   display: flex;
-  align-items: flex-start;
+  align-items: center
 }
 
 .first_post p, .post p {
   font-family:  sans-serif;
   font-size: 1.5em;
 }
-
-.first_post p {
-  margin: 20px;
-}
-
-.first_post img {
-  display:block;
-  position:relative;
-  overflow:hidden;/*keeps the image in the container*/
-  height: 800px;
-  width: 75%;
-  margin:20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 
 a {
   color: white;
@@ -88,12 +72,11 @@ a:visited {
 }
 
 .post img {
-  position:relative;
-  overflow:hidden;/*keeps the image in the container*/
   height: 450px;
-  width: 700px;
-  margin:20px
+  width: 50%;
 }
+
+
 
 #carousel {
   height: 100vh; text-align: center; 
